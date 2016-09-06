@@ -42,8 +42,8 @@ function AedAcc(fnameListRef, fnameListHyp)
 %   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-inDirHyp = 'C:\Users\andreyt\Documents\articles\in process\AED challenge\event_detection_metrics2013\CLEAR2007\FBK\back\' ; 	% hypothesis directory
-inDirRef = 'C:\Users\andreyt\Documents\articles\in process\AED challenge\event_detection_metrics2013\CLEAR2007\GT\' ;         % reference directory
+inDirHyp = 'CLEAR2007\sys1' ; 	% hypothesis directory
+inDirRef = 'CLEAR2007\GT\' ;         % reference directory
 ListsDir = '' ;% filelists directory
 
 fl_ref   = fopen (strcat(ListsDir, fnameListRef), 'r') ;
